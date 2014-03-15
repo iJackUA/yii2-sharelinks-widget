@@ -12,6 +12,11 @@ Yii2 widget for popular social networks "share link" generation
 * [LinkedIn](http://linkedin.com)
 * [Send to Kindle](http://fivefilters.org/kindle-it)
 
+## Installation via Composer
+add to `require` section of your `composer.json`
+`"ijackua/yii2-sharelinks-widget": "dev-master"`
+and run composer update
+
 ## Usage Example
 
 ~~~php
