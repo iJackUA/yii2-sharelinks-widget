@@ -16,7 +16,7 @@ use \yii\helpers\Html;
 	Html::a('<b>Tw</b>', $this->context->shareUrl(ShareLinks::SOCIAL_TWITTER),
 		['title' => 'Share to Twitter']) ?>
 	<?=
-	Html::a('<b">Li</b>', $this->context->shareUrl(ShareLinks::SOCIAL_LINKEDIN),
+	Html::a('<b>Li</b>', $this->context->shareUrl(ShareLinks::SOCIAL_LINKEDIN),
 		['title' => 'Share to LinkedIn']) ?>
 	<?=
 	Html::a('<b>GP</b>', $this->context->shareUrl(ShareLinks::SOCIAL_GPLUS),
