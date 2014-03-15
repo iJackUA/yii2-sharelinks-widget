@@ -1,5 +1,5 @@
 <?php
-use \app\widgets\socialshare\ShareLinks;
+use ijackua\sharelinks\ShareLinks;
 use \yii\helpers\Html;
 
 /**

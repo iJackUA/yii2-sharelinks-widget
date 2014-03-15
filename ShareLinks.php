@@ -1,7 +1,7 @@
 <?php
 namespace ijackua\sharelinks;
 
-use app\widgets\socialshare\ShareLinksAssets;
+use ijackua\sharelinks\ShareLinksAssets;
 use Yii;
 use yii\helpers\ArrayHelper;
 
