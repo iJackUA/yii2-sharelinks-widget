@@ -1,6 +1,7 @@
 <?php
 namespace ijackua\sharelinks;
 
+use Yii;
 use yii\web\AssetBundle;
 
 class ShareLinksAssets extends AssetBundle
