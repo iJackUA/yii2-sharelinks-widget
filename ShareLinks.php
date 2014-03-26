@@ -51,7 +51,7 @@ class ShareLinks extends \yii\base\Widget
 
 	public function init()
 	{
-		$this->url = (empty($this->url)) ? req()->getAbsoluteUrl() : $this->url;
+		$this->url = (empty($this->url)) ? Yii::$app->getRequest()->getAbsoluteUrl() : $this->url;
 		ShareLinksAssets::register($this->view);
 	}
 
