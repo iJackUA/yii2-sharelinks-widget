@@ -27,8 +27,9 @@ in template file use
 ); ?>
 ~~~
 
-## Example view file
-it uses custom icons from Fontello, but you can make it what ever you want and customize what links do you need adn what not
+## Example custom view file
+This eaxmple uses custom icons from Fontello, but you can make it what ever you want and customize what links do you need and what not.
+Your `@app/views/mypath/shareLinks.php` file could look like
 ~~~php
 <?php
 use ijackua\sharelinks\ShareLinks;
