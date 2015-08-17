@@ -18,13 +18,13 @@ add to `require` section of your `composer.json`
 and run composer update
 
 ## Usage Example
-
+in template file use
 ~~~php
-\ijackua\sharelinks\ShareLinks::widget(
+<?php echo \ijackua\sharelinks\ShareLinks::widget(
 	[
 		'viewName' => '@app/views/mypath/shareLinks.php'   //custom view file for you links appearance
 	]
-);
+); ?>
 ~~~
 
 ## Example view file
