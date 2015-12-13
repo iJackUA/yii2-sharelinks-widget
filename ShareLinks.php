@@ -16,6 +16,7 @@ class ShareLinks extends \yii\base\Widget
 	const SOCIAL_GPLUS = 4;
 	const SOCIAL_LINKEDIN = 5;
 	const SOCIAL_KINDLE = 6;
+	const SOCIAL_XING = 7;
 
 	/**
 	 * Path to view file that will contain markup for the whole soc net buttons block
@@ -46,7 +47,8 @@ class ShareLinks extends \yii\base\Widget
 		self::SOCIAL_VKONTAKTE => 'http://vk.com/share.php?url={url}',
 		self::SOCIAL_GPLUS => 'https://plus.google.com/share?url={url}',
 		self::SOCIAL_LINKEDIN => 'http://www.linkedin.com/shareArticle?url={url}',
-		self::SOCIAL_KINDLE => 'http://fivefilters.org/kindle-it/send.php?url={url}'
+		self::SOCIAL_KINDLE => 'http://fivefilters.org/kindle-it/send.php?url={url}',
+		self::SOCIAL_XING => 'https://www.xing.com/spi/shares/new?url=stdout.in{url}'
 	];
 
 	public function init()
