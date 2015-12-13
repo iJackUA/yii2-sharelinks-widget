@@ -25,7 +25,7 @@ use \yii\helpers\Html;
     Html::a('<b>Vk</b>', $this->context->shareUrl(ShareLinks::SOCIAL_VKONTAKTE),
             ['title' => 'Share to Vkontakte']) ?>
     <?=
-    Html::a('<b>Vk</b>', $this->context->shareUrl(ShareLinks::SOCIAL_XING),
+    Html::a('<b>Xi</b>', $this->context->shareUrl(ShareLinks::SOCIAL_XING),
             ['title' => 'Share to Xing']) ?>
     <?=
     Html::a('<b>Ki</b>', $this->context->shareUrl(ShareLinks::SOCIAL_KINDLE),
