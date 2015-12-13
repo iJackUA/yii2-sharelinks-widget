@@ -48,7 +48,7 @@ class ShareLinks extends \yii\base\Widget
 		self::SOCIAL_GPLUS => 'https://plus.google.com/share?url={url}',
 		self::SOCIAL_LINKEDIN => 'http://www.linkedin.com/shareArticle?url={url}',
 		self::SOCIAL_KINDLE => 'http://fivefilters.org/kindle-it/send.php?url={url}',
-		self::SOCIAL_XING => 'https://www.xing.com/spi/shares/new?url=stdout.in{url}'
+		self::SOCIAL_XING => 'https://www.xing.com/spi/shares/new?url={url}'
 	];
 
 	public function init()
