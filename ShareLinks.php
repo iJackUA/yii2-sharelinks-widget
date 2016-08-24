@@ -64,9 +64,10 @@ class ShareLinks extends \yii\base\Widget
 		echo $this->render($this->viewName);
 	}
 
-	public function shareUrl($networkId)
+	public function shareUrl($networkId, $url=null)
 	{
-		return str_replace('{url}', urlencode($this->url), ArrayHelper::getValue($this->shareUrlMap, $networkId));
+		if( !$url ) { $url = $this->url; }
+		return str_replace('{url}', urlencode($url), ArrayHelper::getValue($this->shareUrlMap, $networkId));
 	}
 
 }
